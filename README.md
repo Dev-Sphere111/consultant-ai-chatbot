@@ -1,73 +1,89 @@
-# Dr. Kumar - AI Chatbot
+# consultant-ai-chatbot - AI Dialogue System
 
-Dr. Kumar is an AI-powered chatbot designed to provide consultation using **Large Language Models (LLMs)**. It is built using **React, Node.js, Express, and Ollama Phi** for seamless AI interaction.
+**consultant-ai-chatbot** is an AI-driven dialogue system crafted to offer advisory services using **Large Language Models (LLMs)**. It is developed with **React, Node.js, Express, and Ollama Phi** for smooth AI engagement.
 
-## Features
-- AI consultation powered by **Ollama Phi**
-- User-friendly interface built with **React**
-- Backend powered by **Node.js and Express**
-- Real-time communication
+## Characteristics
 
-## Installation & Setup
+- AI advisory service fueled by **Ollama Phi**
+- Intuitive user interface created with **React**
+- Server-side operations managed by **Node.js and Express**
+- Instantaneous communication
 
-### Prerequisites
-Ensure you have the following installed on your local machine:
-- **Node.js** (v16+)
+## Installation & Configuration
+
+### Preconditions
+
+Make sure you have the subsequent software installed on your local system:
+
+- **Node.js** (version 16 or newer)
 - **Ollama Phi**
 - **Git**
 
-### Clone the Repository
+### Clone the Source Code
+
 ```sh
- git clone https://github.com/rahulkatiayr/Dr.kumar-AI-chatbot.git
- cd Dr.kumar-AI-chatbot
+ git clone https://github.com/Dev-Sphere111/consultant-ai-chatbot
+ cd consultant-ai-chatbot
 ```
 
-### Install Dependencies
+### Install Necessary Packages
+
 #### Backend
+
 ```sh
 cd backend
 npm install
 ```
+
 #### Frontend
+
 ```sh
 cd ../frontend
 npm install
 ```
 
-### Setting up Ollama Phi
-Ollama Phi is the core LLM used for AI consultation. Follow these steps to install and use it:
+### Configuring Ollama Phi
+
+Ollama Phi serves as the primary LLM for AI consultations. Adhere to these instructions to install and utilize it:
 
 1. **Install Ollama**
    ```sh
    curl -fsSL https://ollama.com/install.sh | sh
    ```
-2. **Run Ollama Phi Model**
+2. **Execute Ollama Phi Model**
    ```sh
    ollama run phi
    ```
 
-### Start the Application
+### Launch the Application
+
 #### Backend
+
 ```sh
 cd backend
 npm start
 ```
+
 #### Frontend
+
 ```sh
 cd ../frontend
 npm start
 ```
 
-## Usage
-1. Open **http://localhost:3000/** in your browser.
-2. Start chatting with **Dr. Kumar** for AI-powered consultations!
+## Operation
 
-## Contributing
-Feel free to fork the repository and create pull requests for improvements.
+1. Navigate to **http://localhost:3000/** in your web browser.
+2. Begin conversing with **consultant-ai-chatbot** for AI-assisted advice!
 
-## License
-This project is open-source and available under the **MIT License**.
+## Contributions
 
-## Contact
-For queries, reach out via [GitHub](https://github.com/rahulkatiayr).
+You are welcome to fork the project and submit pull requests for enhancements.
 
+## Licensing
+
+This endeavor is open-source and accessible under the **MIT License**.
+
+## Get in Touch
+
+For inquiries, please connect via [GitHub](https://github.com/Dev-Sphere111).
